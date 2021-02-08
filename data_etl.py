@@ -1,7 +1,8 @@
 import numpy as np
 
 import pandas as pd
-import sqlite3
+import sqlite3 # Pour lire du SQL Lite
+import pyodbc # Pour lire les tables SQL d'un Serveur
 
 def read_data(path:str):
     data = None
