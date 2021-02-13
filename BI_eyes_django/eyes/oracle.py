@@ -4,7 +4,7 @@ query1 = "select id, name from students where name like '%Oscar%'"
 query2 = "select class, avg(age) from students group by class"
 
 ## opening conn
-conn = pt.open_connection("config.yml")
+conn = pt.open_connection("config.yml") # fichier contenant la configuration à la bd
 
 ## passing the conn object to the query_to_df
 df1 = pt.query_to_df(query1, conn, 10000)
