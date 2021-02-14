@@ -11,7 +11,7 @@ def read_data(path:str):
     elif '.xlsx' in path:
         data = pd.read_excel(path)
     elif '.json' in path:
-        data = pd.read_excel(path)
+        data = pd.read_json(path)
     return data
 
 def read_sql_table(path, query, con_type="sqlite3"): # Load SQL Table
