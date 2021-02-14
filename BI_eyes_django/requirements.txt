@@ -1,0 +1,5 @@
+django
+pandas-oracle
+pandas
+numpy
+bootstrap4
